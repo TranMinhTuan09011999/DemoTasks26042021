@@ -1,0 +1,7 @@
+package com.itsj.dependencyinjection;
+
+public class User {
+	private Language language;
+	
+	
+}

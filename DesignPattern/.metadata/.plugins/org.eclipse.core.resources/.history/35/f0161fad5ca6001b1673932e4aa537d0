@@ -1,0 +1,10 @@
+package com.itsj.dependencyinjection;
+
+public class MainDependencyInjection {
+	public static void main(String[] args) {
+		Message language = new VietNamLanguage();
+		
+		User user = new User(language);
+		user.say();
+	}
+}

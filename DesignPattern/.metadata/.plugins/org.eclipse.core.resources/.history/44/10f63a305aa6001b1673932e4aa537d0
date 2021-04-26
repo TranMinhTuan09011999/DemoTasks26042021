@@ -1,0 +1,12 @@
+package com.itsj.dependencyinjection;
+
+public class User {
+	private Language language;
+
+	public User(Language language) {
+		super();
+		this.language = language;
+	}
+	
+	
+}

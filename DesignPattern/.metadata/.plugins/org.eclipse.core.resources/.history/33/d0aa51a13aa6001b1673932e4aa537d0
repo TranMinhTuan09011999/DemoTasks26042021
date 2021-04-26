@@ -1,0 +1,8 @@
+package com.itsj.singleton;
+
+public class SingletonPattern {
+	private static SingletonPattern insSingletonPattern;
+	private SingletonPattern() {
+		
+	}
+}

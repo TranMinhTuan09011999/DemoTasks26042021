@@ -1,0 +1,24 @@
+package com.itsj.prototype;
+
+public class Laptop implements Cloneable{
+	private String os;
+	private String color;
+	private String browser;
+	private String others;
+	
+	public Laptop(String os, String color, String browser, String others) {
+		super();
+		this.os = os;
+		this.color = color;
+		this.browser = browser;
+		this.others = others;
+	}
+	
+	@Override
+	protected Laptop clone() {
+		try {
+			return (Laptop) super.clone();
+		}catch()
+	}
+	
+}

@@ -1,0 +1,14 @@
+package com.itsj.dependencyinjection;
+
+public class User {
+	private Message language;
+
+	public User(Message language) {
+		super();
+		this.language = language;
+	}
+	
+	public void say() {
+		language.sayHello(".......");
+	}
+}

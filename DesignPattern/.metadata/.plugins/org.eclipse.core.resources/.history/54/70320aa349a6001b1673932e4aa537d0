@@ -1,0 +1,7 @@
+package com.itsj.builder;
+
+public class MainBuilder {
+	public static void main(String[] args) {
+		User user1 = new User.UserBuilder("Minh", "Tuan").age(20).phone("0377730290").address("QuangNgai").build();
+	}
+}

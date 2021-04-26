@@ -1,0 +1,12 @@
+package com.itsj.dao;
+
+public class Student {
+	private String name;
+	private Integer rollNo;
+	public Student(String name, Integer rollNo) {
+		this.name = name;
+		this.rollNo = rollNo;
+	}
+	
+	
+}

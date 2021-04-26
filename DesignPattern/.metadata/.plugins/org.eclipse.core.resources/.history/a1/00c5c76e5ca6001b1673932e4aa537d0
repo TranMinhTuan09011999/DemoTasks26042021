@@ -1,0 +1,8 @@
+package com.itsj.dependencyinjection;
+
+public class EmailMessage implements Message{
+	@Override
+	void sendMessage(String message) {
+		
+	}
+}

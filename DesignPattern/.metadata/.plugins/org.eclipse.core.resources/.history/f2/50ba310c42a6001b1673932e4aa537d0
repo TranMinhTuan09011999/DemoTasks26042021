@@ -1,0 +1,9 @@
+package com.itsj.factory;
+
+public class CarFactory {
+	private CarFactory() {
+		
+	}
+	
+	
+}

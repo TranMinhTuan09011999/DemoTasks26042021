@@ -1,0 +1,11 @@
+package com.itsj.singleton;
+
+public class MainSingletonPattern {
+	public static void main(String[] args) {
+		SingletonPattern singletonPattern = SingletonPattern.getInstance();
+		System.out.println("singletonPattern" + singletonPattern);
+		
+		SingletonPattern singletonPatternDone = SingletonPattern.getInstance();
+		System.out.println("singletonPattern" + singletonPatternDone);
+	}
+}

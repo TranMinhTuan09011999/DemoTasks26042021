@@ -1,0 +1,46 @@
+package com.itsj.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+public class BookDao implements Dao<Books>{
+
+	 private List<Books> books = new ArrayList<>();
+	 
+	 public BookDao() {
+		 books.add(new Books(1, "Java Program"));
+		 books.add(new Books(2, "Java Program"));
+	 }
+	 
+	@Override
+	public List<Books> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Books> get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void save(Books t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Books t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Books t) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.itsj.dao;
+
+@Data
+@AllArgsConstructor
+public class Books {
+	private Integer isbn;
+    private String bookName;
+}

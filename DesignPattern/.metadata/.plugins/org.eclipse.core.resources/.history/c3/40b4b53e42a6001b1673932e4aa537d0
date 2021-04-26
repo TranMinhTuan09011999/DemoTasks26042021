@@ -1,0 +1,11 @@
+package com.itsj.factory;
+
+public class CarFactory {
+	private CarFactory() {
+		
+	}
+	
+	public static final Car getCar(CartType cartType) {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.itsj.dao;
+
+public class Books {
+	private Integer bookId;
+    private String bookName;
+    
+	public Books(Integer bookId, String bookName) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+	}
+    
+    
+}
